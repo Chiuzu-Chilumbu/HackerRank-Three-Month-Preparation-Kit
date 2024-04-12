@@ -9,8 +9,20 @@ Challenge:
 
 import sys
 
-
 def split_helper(word):
+    """
+    Splits a CamelCase string into a space-delimited string with all lowercase letters.
+
+    Args:
+    word (str): The CamelCase string to split.
+
+    Returns:
+    str: A string of words separated by spaces, all in lowercase, stripped of any parentheses.
+    
+    This function iterates through each character in the input string. When it encounters an uppercase letter
+    or a parenthesis, it treats this as the start of a new word, appending the current word to the list and
+    resetting for the next word. It ensures that characters like parentheses are not included in the output.
+    """
     words_list = []
     current_word = word[0]
 
@@ -27,7 +39,24 @@ def split_helper(word):
     return ' '.join(words_list)
 
 
+
 def merge_helper(word, method):
+    """
+    Merges a space-delimited string into a CamelCase string based on the specified method type.
+
+    Args:
+    word (str): The space-delimited string to convert into CamelCase.
+    method (str): The type of CamelCase format ('M' for methods, 'C' for classes, 'V' for variables).
+
+    Returns:
+    str: A CamelCase string formatted according to the method type. Methods end with '()', classes start with
+    an uppercase letter, and variables follow camelCase convention without additional characters.
+    
+    The function handles three cases:
+    - 'M': Starts with a lowercase letter, subsequent words start with uppercase, ends with '()'
+    - 'C': Each word starts with an uppercase letter
+    - 'V': Starts with a lowercase letter, subsequent words start with uppercase
+    """
     word_list = word.split(' ')
 
     if method == 'M':
@@ -58,6 +87,14 @@ def merge_helper(word, method):
 
 
 def camel_case():
+    """
+    Processes multiple lines of input, each specifying an operation ('S' for split or 'C' for combine),
+    a method type ('M', 'C', 'V'), and the word to operate on. Outputs the result of the operation.
+
+    This function reads from standard input until EOF. For each line, it determines whether to split
+    or merge the provided word based on the operation and method type. The results are printed directly.
+    """
+
     input = sys.stdin.read
     data = input().splitlines()
 
