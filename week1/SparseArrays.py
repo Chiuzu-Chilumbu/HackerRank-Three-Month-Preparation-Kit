@@ -13,9 +13,6 @@ def matchingStrings(strings: list, queries:list ):
 
     Returns:
     list: A list of integers representing the count of each query string's occurrence in the strings list.
-    
-    Each element in the returned list corresponds to the count of a query in the `queries` list as it appears
-    in the `strings` list.
     """
     
     # Declare needed variables

@@ -4,7 +4,7 @@ challenge:  Given an array of integers and a positive integer,
 """
 
 
-def divisibleSumPairs(n, k, ar):
+def divisibleSumPairs(n: int, k: int, ar: list):
     """
     Determine the number of pairs (i, j) in array `ar` where i < j and (ar[i] + ar[j]) is divisible by k.
 
