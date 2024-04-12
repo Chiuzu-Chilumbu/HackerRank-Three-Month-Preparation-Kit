@@ -11,7 +11,7 @@ The HackerRank Three Months Interview Preparation Kit is a collection of coding 
 The repository is structured according to the sections found in the Three Months Interview Preparation Kit. Each folder corresponds to a week of challenges, with individual Python files for each problem. Within each folder, solutions are named after the challenges they solve, making it easy to navigate and find specific solutions.
 
 
-# Week 1 - HackerRank Interview Preparation Questions
+# Week 1
 
 This directory contains my solutions to the week 1 module of the three-month interview preparation questions on HackerRank. Each Python script corresponds to a specific challenge.
 
