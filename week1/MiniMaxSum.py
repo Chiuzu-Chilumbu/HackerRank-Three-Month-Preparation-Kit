@@ -6,42 +6,31 @@ Challenge Description: Given five positive integers,
 """
 
 
-def miniMaxSum(arr):
-    """this function solves the minimaxsum problem"""
+def miniMaxSum(arr: list) -> None:
+    """
+    Parameters:
+    arr (list of int): The input array containing exactly five positive integers.
+
+    Returns:
+    None: This function prints the minimum and maximum sum separated by a space.
+
+    Example usage:
+    >>> arr = [1, 2, 3, 4, 5]
+    >>> miniMaxSum(arr)
+    10 14
+    """
+
+    #  obtain the smallest and largest element in the array
     smallest_element = min(arr)
     largest_element = max(arr)
 
-    arr.remove(smallest_element)
-    max_sum = sum(arr)
+    # obtain the total sum
+    total_sum = sum(arr)
 
-    arr.append(smallest_element)
-    arr.remove(largest_element)
+    # Find the maximum sum by subtracting the minimum value from the total sum.
+    max_sum = total_sum - smallest_element
+    # Find the minimum sum by subtracting the maximum value from the total sum.
+    min_sum = total_sum - largest_element
 
-    min_sum = sum(arr)
-
+    # Print the results.
     print(min_sum, max_sum)
-
-
-# sample input:
-arr_1 = [1, 3, 5, 7, 9]
-
-"""
-sample output:
-16 24
-"""
-
-#  sample input:
-arr_2 = [1, 2, 3, 4, 5]
-
-"""
-sample output:
-10 14
-"""
-
-# sample input:
-arr_3 = [7, 69, 2, 221, 8974]
-
-"""
-sample output:
-299 9271
-"""

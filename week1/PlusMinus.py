@@ -5,11 +5,30 @@ Print the decimal value of each fraction on a new line with  places after the de
 """
 
 
-def plusMinus(arr):
-    """this function solves the plus minus problem"""
-    positives, negatives, zeros = 0, 0, 0
-    size_of_arr = len(arr)
+def plusMinus(arr: list) -> None:
+    """
+    Parameters:
+    arr (list of int): The input array containing negative, positive and zero value integers.
 
+    Returns:
+    None: This function prints the proportion of the negative, positive and zero values in new lines.
+
+    Example usage:
+    >>> arr = [1, 1, 0, -1, -1]
+    >>> plusMinus(arr)
+
+    0.400000
+    0.400000
+    0.200000
+    """
+
+    # assign positives, negatives, zeros to 0
+    positives, negatives, zeros = 0, 0, 0
+    #  obtain the length of the array
+    length_of_arr = len(arr)
+
+    # loop through the elements in the array and how many instances of
+    # positives, negatives, zeros are present in the array
     for element in arr:
         if element > 0:
             positives += 1
@@ -20,32 +39,13 @@ def plusMinus(arr):
         else:
             zeros += 1
 
-    positives = positives / size_of_arr
-    negatives = negatives / size_of_arr
-    zeros = zeros / size_of_arr
+    # Calculate the proportion of the collected instances positives,
+    # negatives, zeros
+    positives = positives / length_of_arr
+    negatives = negatives / length_of_arr
+    zeros = zeros / length_of_arr
 
+    # print the calculated proportions to 6 decimal places
     print(f"{positives:6f}")
     print(f"{negatives:6f}")
     print(f"{zeros:6f}")
-
-
-# sample input:
-arr_1 = [1, 1, 0, -1, -1]
-
-"""
-sample output:
-0.400000
-0.400000
-0.200000
-"""
-
-# Sample input:
-arr_2 = [-4, 3, -9, 0, 4, 1]
-
-"""
-sample output:
-0.500000
-0.333333
-0.166667
-"""
-
