@@ -24,3 +24,19 @@ This directory contains my solutions to the week 1 module of the three-month int
 - `PlusMinus.py` - Solution for the "Plus Minus" challenge.
 - `SparseArrays.py` - Solution for the "Sparse Arrays" challenge.
 - `TimeConversion.py` - Solution for the "Time Conversion" challenge.
+
+
+# Week 2
+
+This directory contains my solutions to the week 2 module of the three-month interview preparation questions on HackerRank. Each Python script corresponds to a specific challenge.
+
+## Problems:
+
+- `countingSort.py` - Solution for the "Counting Sort" challenge.
+- `countingValleys.py` - Solution for the "Counting Valleys" challenge.
+- `diagonalDifference.py` - Solution for the "Diagonal Difference" challenge.
+- `lonelyinteger.py` - Solution for the "Lonely Integer" challenge.
+- `marsExploration.py` - Solution for the "Mars Exploration" challenge.
+- `pangrams.py` - Solution for the "Pangrams" challenge.
+- `flippingBits.py` - Solution for the "Flipping Bits" challenge.
+- `GradingStudents.py` - Solution for the "Grading Students" challenge.
