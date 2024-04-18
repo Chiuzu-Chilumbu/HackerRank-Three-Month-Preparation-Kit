@@ -8,3 +8,23 @@ Challenge: A pangram is a string that contains every letter of the alphabet.
 """
 
 
+def pangrams(s):
+    alphabet = {'a','b','c','d','e','f','g','h','i','j','k','l','m',  \
+                'n','o','p','q', 'r','s','t','u','v','w', 'x','y', 'z'}
+    
+    store_letters = ''
+
+    for letter in s:
+        if letter.isalpha():
+            store_letters += letter.lower()
+
+    store_letters = set(store_letters)
+
+    value = alphabet.difference(store_letters)
+
+    if not value:
+        return 'pangram'
+    
+    else:
+        return 'not pangram'
+
