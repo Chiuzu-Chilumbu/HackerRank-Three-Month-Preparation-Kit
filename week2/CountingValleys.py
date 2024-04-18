@@ -11,7 +11,7 @@ Challenge: An avid hiker keeps meticulous records of their hikes.
 """
 
 
-def countingValleys(steps, path):
+def countingValleys(steps :int, path: str) -> int:
     """
     Counts the number of valleys traversed in the path sequence.
 

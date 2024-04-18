@@ -3,8 +3,9 @@ Challenge: Given a list of integers,
 count and return the number of times each value appears as an array of integers.
 """
 
+from typing import List
 
-def countingSort(arr):
+def countingSort(arr: List[int]):
     """
     Counts the occurrences of each integer value in the input list and returns an array of counts.
 

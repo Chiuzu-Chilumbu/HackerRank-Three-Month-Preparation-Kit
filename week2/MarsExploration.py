@@ -7,21 +7,31 @@ Challenge:
 """
 
 
+def marsExploration(s: str) -> int:
+    """
+    Determines the number of letters in a message that were altered during transmission.
 
-def marsExploration(s):
+    Args:
+    s (str): The received message.
+
+    Returns:
+    int: The count of altered letters in the message.
+    """
+    
+    # Initialize a variable to count the number of altered letters
     changed_letter_count = 0
+    
+    # Get the length of the received message
     message_length = len(s)
+    
+    # Define the expected message pattern
     message = 'SOS'
 
+    # Iterate through each letter in the received message
     for index in range(message_length):
+        # Check if the current letter is different from the expected letter in the pattern
         if s[index] != message[index % 3]:
+            # Increment the count of altered letters
             changed_letter_count += 1
 
     return changed_letter_count
-
-
-s_1 = 'SOSSPSSQSSOR'
-s_2 = 'SOSTOT'
-
-
-print(marsExploration(s_1))

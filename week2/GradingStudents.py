@@ -5,7 +5,7 @@ round each student's  according to these rules:
   round  up to the next multiple of .
   If the value of  is less than , no rounding occurs as the result will still be a failing grade.
 """
-
+from typing import List
 
 def round_grades(grade: int) -> int:
     """
@@ -29,10 +29,10 @@ def round_grades(grade: int) -> int:
     else:
         current_grade = grade
 
-    return current_grade 
+    return current_grade
         
 
-def gradingStudents(grades):
+def gradingStudents(grades: List[int]) -> List[int]:
     """
     Rounds each grade in the list according to the specified rules.
 
