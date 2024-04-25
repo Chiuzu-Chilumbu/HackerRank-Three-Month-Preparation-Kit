@@ -26,7 +26,7 @@ HackerRank-Interview-Preparation/
 └── ...
 ```
 
-# Week 1
+# Week 1: 7th April ~ 13th April
 
 This directory contains my solutions to the week 1 module of the three-month interview preparation questions on HackerRank. Each Python script corresponds to a specific challenge.
 
@@ -41,7 +41,7 @@ This directory contains my solutions to the week 1 module of the three-month int
 - `TimeConversion.py` - Solution for the "Time Conversion" challenge.
 
 
-# Week 2
+# Week 2: 14th April ~ 20th April
 
 This directory contains my solutions to the week 2 module of the three-month interview preparation questions on HackerRank. Each Python script corresponds to a specific challenge.
 
