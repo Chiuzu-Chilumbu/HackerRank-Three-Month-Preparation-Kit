@@ -25,7 +25,9 @@ print(strings_xor(s, t))
 
 """
 
-# Debugged Code Solution:
+#  Debugged Code Solution:
+
+
 def strings_xor(s: str, t: str) -> str:
     """
     Finds the XOR of two strings consisting of digits 0 and 1 only.
@@ -41,7 +43,7 @@ def strings_xor(s: str, t: str) -> str:
     - The XOR operation is applied character by character between the two strings.
     - Modifies the input list in place to create the zigzag sequence.
     """
-    
+
     res = ""
     for i in range(len(s)):
         if s[i] == t[i]:  # Corrected from assignment to equality operation
@@ -50,7 +52,3 @@ def strings_xor(s: str, t: str) -> str:
             res += '1'    # Adds '1' to the result string if the corresponding characters are different
 
     return res
-
-
-
-

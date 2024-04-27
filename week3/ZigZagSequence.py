@@ -1,13 +1,13 @@
 """
 Challenge : the task is to debug the existing code to successfully execute all provided test files.
-  Given an array of n distinct integers, transform the array into a zig zag sequence 
+  Given an array of n distinct integers, transform the array into a zig zag sequence
   by permuting the array elements. A sequence will be called a zig zag sequence if the first k
-  elements in the sequence are in increasing order 
-  and the last k elements are in decreasing order, 
+  elements in the sequence are in increasing order
+  and the last k elements are in decreasing order,
 
 Note: You can modify at most three lines in the given code. You cannot add or remove lines of code.
 To restore the original code, click on the icon to the right of the language selector.
-original code : 
+original code :
 
 def findZigZagSequence(a, n):
     a.sort()
@@ -31,6 +31,7 @@ def findZigZagSequence(a, n):
 
 from typing import List
 
+
 def findZigZagSequence(a: List[int], n: int) -> None:
     """
     Transforms the given list into a zigzag sequence by permuting the elements.
@@ -47,8 +48,11 @@ def findZigZagSequence(a: List[int], n: int) -> None:
       and the last k elements are in decreasing order.
     - Modifies the input list in place to create the zigzag sequence.
     """
+
     a.sort()
-    mid = (n - 1) // 2  # changed from `int((n - 1)/2)` to ensure the last 4 lines of the array are in decreasing order
+    # changed from `int((n - 1)/2)` to ensure the last 4 lines of the array
+    # are in decreasing order
+    mid = (n - 1) // 2
     a[mid], a[n - 1] = a[n - 1], a[mid]
 
     st = mid + 1

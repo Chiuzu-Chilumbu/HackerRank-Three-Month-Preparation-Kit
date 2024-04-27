@@ -1,5 +1,8 @@
 """
-Challenge:
+Challenge: Two children, Lily and Ron, want to share a chocolate bar. 
+Each of the squares has an integer on it. Lily decides to share a contiguous segment of the bar selected such that:
+The length of the segment matches Ron's birth month, and, The sum of the integers on the squares is equal to his birth day.
+Determine how many ways she can divide the chocolate.
   
 """
 
@@ -15,17 +18,17 @@ def birthday(s: list, d: int, m: int) -> int:
 
     Returns:
     int: The number of contiguous subarrays with the specified sum and length.
-
-    Notes:
-    - This function iterates through all possible contiguous subarrays of length `m` in the input list `s`.
-    - For each subarray, it calculates the sum and compares it with the desired sum `d`.
-    - If the sum matches `d`, the count is incremented.
     """
+
+    # Declare variables
     length = m
     size = len(s)
     start = 0
     count = 0
+
+    # iterate through all possible contiguous subarrays of length `m` in the input list `s`
     while length <= size:
+        # If the sum matches `d`, the count is incremented
         if sum(s[start:length]) == d:
             count += 1
         start += 1
