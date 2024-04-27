@@ -26,19 +26,31 @@ print(strings_xor(s, t))
 """
 
 # Debugged Code Solution:
+def strings_xor(s: str, t: str) -> str:
+    """
+    Finds the XOR of two strings consisting of digits 0 and 1 only.
 
-def strings_xor(s, t):
+    Args:
+    s (str): The first input string.
+    t (str): The second input string.
+
+    Returns:
+    str: The XOR of the two input strings.
+
+    Notes:
+    - The XOR operation is applied character by character between the two strings.
+    - Modifies the input list in place to create the zigzag sequence.
+    """
+    
     res = ""
     for i in range(len(s)):
-        if s[i] == t[i]: # Corrected from assign to equals
-            res += '0'  # have to add to the result not assign and remove semi colon
+        if s[i] == t[i]:  # Corrected from assignment to equality operation
+            res += '0'    # Adds '0' to the result string if the corresponding characters are equal
         else:
-            res += '1' # have to add to the result not assign and remove semi colon
+            res += '1'    # Adds '1' to the result string if the corresponding characters are different
 
     return res
 
-s = input()
-t = input()
-print(strings_xor(s, t))
+
 
 

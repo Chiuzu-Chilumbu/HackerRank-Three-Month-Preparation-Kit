@@ -4,24 +4,31 @@ Challenge:
 """
 
 
-def birthday(s, d, m):
-    # Write your code here
-	length = m 
-	size = len(s)
-	start = 0
-	count = 0
-	while length <= size:
-		if sum(s[start:length]) == d:
-			count += 1
-		start += 1
-		length += 1
+def birthday(s: list, d: int, m: int) -> int:
+    """
+    Counts the number of contiguous subarrays of chocolate squares with a given sum and length.
 
-	return count
-    
+    Args:
+    s (list): A list representing the chocolate squares.
+    d (int): The desired sum of the contiguous subarray.
+    m (int): The desired length of the contiguous subarray.
 
+    Returns:
+    int: The number of contiguous subarrays with the specified sum and length.
 
-s = [2, 2, 1, 3, 2]
-d = 4
-m = 2
+    Notes:
+    - This function iterates through all possible contiguous subarrays of length `m` in the input list `s`.
+    - For each subarray, it calculates the sum and compares it with the desired sum `d`.
+    - If the sum matches `d`, the count is incremented.
+    """
+    length = m
+    size = len(s)
+    start = 0
+    count = 0
+    while length <= size:
+        if sum(s[start:length]) == d:
+            count += 1
+        start += 1
+        length += 1
 
-print(birthday(s, d, m)) # 2
+    return count
