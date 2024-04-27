@@ -56,6 +56,22 @@ This directory contains my solutions to the week 2 module of the three-month int
 - `flippingBits.py` - Solution for the "Flipping Bits" challenge.
 - `GradingStudents.py` - Solution for the "Grading Students" challenge.
 
+# Week 3
+
+This directory contains my solutions to the week 3 module of the three-month interview preparation questions on HackerRank. Each Python script corresponds to a specific challenge.
+
+## Problems:
+
+- `MaximumPerimeterTriangle.py` - Solution for the "Maximum Perimeter Triangle" challenge.
+- `PermutingTwoArrays.py` - Solution for the "Permuting Two Arrays" challenge.
+- `DrawingBook.py` - Solution for the "Drawing Book" challenge.
+- `migratoryBirds.py` - Solution for the "Migratory Birds" challenge.
+- `SalesByMatch.py` - Solution for the "Sales By Match" challenge.
+- `ZigZagSequence.py` - Solution for the "Zig Zag Sequence" challenge.
+- `XorStrings.py` - Solution for the "XOR Strings" challenge.
+- `SubArrayDividion.py` - Solution for the "Sub Array Division" challenge.
+
+
 ## Usage
 
 Feel free to explore the contents of this repository to find solutions to specific challenges or to browse through different problem-solving techniques. Here's how you can make the most of this repository:
