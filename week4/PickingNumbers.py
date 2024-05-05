@@ -4,34 +4,44 @@ find the longest subarray where the absolute difference between any two elements
 
 """
 
+def pickingNumbers(a: list) -> int:
+    """
+    Determines the length of the longest subarray with absolute difference of 1 between elements.
 
-def pickingNumbers(a):
-    #  decalre variables
+    Args:
+    a (list): A list of integers.
+
+    Returns:
+    int: The length of the longest subarray with absolute difference of 1 between elements.
+
+    Notes:
+    - The function iterates through the list to obtain the frequency of each element.
+    - It then iterates through the frequency dictionary to determine the longest subarray.
+    """
+    # Declare a dictionary to store the frequency of elements
     frequency = {}
 
-    # obtain the frequencey of the elements in the list
+    # Obtain the frequency of the elements in the list
     for element in a:
         if element in frequency:
             frequency[element] += 1
-
         else:
             frequency[element] = 1
 
-    #  initialize the maximum length
+    # Initialize the maximum length
     max_length = 0
 
-    #  iterate through the frequency dictionary
-    for numbers in frequency:
-        #  curerent length is the frequenct of the first number because
-        # it subtracts itself and equates to 0 which is less that 1
-        current_length = frequency[numbers]
+    # Iterate through the frequency dictionary
+    for number in frequency:
+        # Current length is the frequency of the current number
+        current_length = frequency[number]
 
-        #  check for the next number in the sequence and if it is 1 value
-        # greater we add it to the current length
-        if numbers + 1 in frequency:
-            current_length += frequency[numbers + 1]
+        # Check if the next number in the sequence exists in the frequency dictionary
+        if number + 1 in frequency:
+            # If so, add its frequency to the current length
+            current_length += frequency[number + 1]
 
-        #  check if the current length is greater than the max length
+        # Update the maximum length if necessary
         max_length = max(max_length, current_length)
 
     return max_length
