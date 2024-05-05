@@ -40,7 +40,6 @@ This directory contains my solutions to the week 1 module of the three-month int
 - `SparseArrays.py` - Solution for the "Sparse Arrays" challenge.
 - `TimeConversion.py` - Solution for the "Time Conversion" challenge.
 
-
 # Week 2
 
 This directory contains my solutions to the week 2 module of the three-month interview preparation questions on HackerRank. Each Python script corresponds to a specific challenge.
@@ -71,6 +70,21 @@ This directory contains my solutions to the week 3 module of the three-month int
 - `XorStrings.py` - Solution for the "XOR Strings" challenge.
 - `SubArrayDividion.py` - Solution for the "Sub Array Division" challenge.
 
+
+# Week 4
+
+This directory contains my solutions to the week 3 module of the three-month interview preparation questions on HackerRank. Each Python script corresponds to a specific challenge.
+
+## Problems:
+
+- `CeasarCipher.py` - Solution for the "Ceasar Cipher" challenge.
+- `ClosestNumbers.py` - Solution for the "Closest Numbers" challenge.
+- `LeftRotation.py` - Solution for the "Left Rotation" challenge.
+- `MinimumAbsoluteDifference.py` - Solution for the "Minimum Absolute Difference" challenge.
+- `NumberLineJumps.py` - Solution for the "Number Line Jumps" challenge.
+- `PickingNumbers.py` - Solution for the "Picking Numbers" challenge.
+- `SeperateTheNumbers.py` - Solution for the "Seperate The Numbers" challenge.
+- `TowerBreakers.py` - Solution for the "Tower Breakers" challenge.
 
 ## Usage
 

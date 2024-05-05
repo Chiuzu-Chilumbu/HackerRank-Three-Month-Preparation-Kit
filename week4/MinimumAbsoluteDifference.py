@@ -19,13 +19,13 @@ def minimumAbsoluteDifference(arr):
     return current_min
 
 
-# solution 2
-def minimumAbsoluteDifference(arr):
-    # Write your code here
-    arr = sorted(arr)
-    current_min = float('inf')
+# # solution 2
+# def minimumAbsoluteDifference(arr):
+#     # Write your code here
+#     arr = sorted(arr)
+#     current_min = float('inf')
     
-    for index in range(len(arr)):
-        current_min = min(current_min, abs(arr[index] - arr[index-1]))
+#     for index in range(len(arr)):
+#         current_min = min(current_min, abs(arr[index] - arr[index-1]))
     
-    return current_min
+#     return current_min
