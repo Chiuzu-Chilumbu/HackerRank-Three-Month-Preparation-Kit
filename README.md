@@ -1,10 +1,10 @@
 # HackerRank Three Months Interview Preparation Kit Solutions
 
-Welcome to my repository of solutions for the HackerRank Three Months Interview Preparation Kit. This repository contains Python solutions to various coding challenges designed to help you and me prepare for technical interviews in software engineering and development roles. Whether you're practicing for an upcoming interview or simply curious about different problem-solving approaches, you'll find detailed solutions and explanations here. 
+Welcome to my repository of solutions for the HackerRank Three Months Interview Preparation Kit. This repository contains Python solutions to various coding challenges designed to help you and me prepare for technical interviews in software engineering and development roles. Whether you're practising for an upcoming interview or simply curious about different problem-solving approaches, you'll find detailed solutions and explanations here. 
 
 ## Introduction
 
-The HackerRank Three Months Interview Preparation Kit is a curated collection of coding challenges aimed at sharpening your problem-solving skills and preparing you for technical interviews. This repository contains my personal solutions to these challenges, along with explanations and documentation to help you understand the thought process behind each solution. To ensure consistency I will be submitting my solutions each week for every week's challenge starting from week 1 which began on 7th April 2024 until week 13 which will end on 6th July 2024. 
+The HackerRank Three Months Interview Preparation Kit is a curated collection of coding challenges aimed at sharpening your problem-solving skills and preparing you for technical interviews. This repository contains my personal solutions to these challenges, along with explanations and documentation to help you understand the thought process behind each solution.
 
 ## Directory Structure
 
