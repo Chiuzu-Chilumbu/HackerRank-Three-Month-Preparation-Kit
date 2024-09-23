@@ -86,18 +86,4 @@ This directory contains my solutions to the week 3 module of the three-month int
 - `SeperateTheNumbers.py` - Solution for the "Seperate The Numbers" challenge.
 - `TowerBreakers.py` - Solution for the "Tower Breakers" challenge.
 
-## Usage
-
-Feel free to explore the contents of this repository to find solutions to specific challenges or to browse through different problem-solving techniques. Here's how you can make the most of this repository:
-
-1. **Browse by Week**: Navigate to the corresponding week folder to find solutions grouped by challenges for each week of the Three Months Interview Preparation Kit.
-
-2. **Read Solutions**: Open individual Python files to view detailed solutions and explanations for each problem. Comments and documentation are provided to guide you through the thought process behind each solution.
-
-3. **Contribute**: If you have alternative solutions or improvements to existing ones, feel free to contribute by submitting pull requests. Your contributions are highly appreciated!
-
-
-## Contributing
-
-Contributions to this repository are welcome! If you have alternative solutions, optimizations, or additional explanations for existing problems, please feel free to open a pull request.
 
