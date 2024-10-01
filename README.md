@@ -55,35 +55,14 @@ This directory contains my solutions to the week 2 module of the three-month int
 - `flippingBits.py` - Solution for the "Flipping Bits" challenge.
 - `GradingStudents.py` - Solution for the "Grading Students" challenge.
 
-# Week 3
 
-This directory contains my solutions to the week 3 module of the three-month interview preparation questions on HackerRank. Each Python script corresponds to a specific challenge.
+## Usage
 
-## Problems:
+Feel free to explore the contents of this repository to find solutions to specific challenges or to browse through different problem-solving techniques. Here's how you can make the most of this repository:
 
-- `MaximumPerimeterTriangle.py` - Solution for the "Maximum Perimeter Triangle" challenge.
-- `PermutingTwoArrays.py` - Solution for the "Permuting Two Arrays" challenge.
-- `DrawingBook.py` - Solution for the "Drawing Book" challenge.
-- `migratoryBirds.py` - Solution for the "Migratory Birds" challenge.
-- `SalesByMatch.py` - Solution for the "Sales By Match" challenge.
-- `ZigZagSequence.py` - Solution for the "Zig Zag Sequence" challenge.
-- `XorStrings.py` - Solution for the "XOR Strings" challenge.
-- `SubArrayDividion.py` - Solution for the "Sub Array Division" challenge.
+1. **Browse by Week**: Navigate to the corresponding week folder to find solutions grouped by challenges for each week of the Three Months Interview Preparation Kit.
 
+2. **Read Solutions**: Open individual Python files to view detailed solutions and explanations for each problem. Comments and documentation are provided to guide you through the thought process behind each solution.
 
-# Week 4
-
-This directory contains my solutions to the week 3 module of the three-month interview preparation questions on HackerRank. Each Python script corresponds to a specific challenge.
-
-## Problems:
-
-- `CeasarCipher.py` - Solution for the "Ceasar Cipher" challenge.
-- `ClosestNumbers.py` - Solution for the "Closest Numbers" challenge.
-- `LeftRotation.py` - Solution for the "Left Rotation" challenge.
-- `MinimumAbsoluteDifference.py` - Solution for the "Minimum Absolute Difference" challenge.
-- `NumberLineJumps.py` - Solution for the "Number Line Jumps" challenge.
-- `PickingNumbers.py` - Solution for the "Picking Numbers" challenge.
-- `SeperateTheNumbers.py` - Solution for the "Seperate The Numbers" challenge.
-- `TowerBreakers.py` - Solution for the "Tower Breakers" challenge.
-
+3. **Contribute**: If you have alternative solutions or improvements to existing ones, feel free to contribute by submitting pull requests. Your contributions are highly appreciated!
 
